@@ -35,7 +35,7 @@ app.post('/send-email', (req, res) => {
   const mailOptions = {
     from: process.env.EMAIL,
     to: process.env.RECIPIENT_EMAIL,
-    subject: `${purpose}: ${subject}`,
+    subject: `Message from B2S landing page:${purpose}`,
     text: `Name: ${name}\nEmail: ${email}\nPurpose: ${purpose}\nMessage: ${body}`
   };
 
