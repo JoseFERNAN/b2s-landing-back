@@ -1,0 +1,15 @@
+{
+  "name": "email-server",
+  "version": "1.0.0",
+  "description": "email service for landing page Block2School",
+  "main": "index.js",
+  "author": "Jose Fernan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  }
+}
