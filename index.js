@@ -36,7 +36,7 @@ app.post('/send-email', (req, res) => {
     from: process.env.EMAIL,
     to: process.env.RECIPIENT_EMAIL,
     subject: `Message from B2S landing page:${purpose}`,
-    text: `Name: ${name}\nEmail: ${email}\nPurpose: ${purpose}\nMessage: ${body}`
+    text: `Name: ${name}\nSubject: ${subject}\nEmail: ${email}\nPurpose: ${purpose}\nMessage: ${body}`
   };
 
   // send email using nodemailer
